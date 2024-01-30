@@ -1,0 +1,20 @@
+{
+    "name": "persgeek/validator",
+    "description": "Validator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PG\\Validator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saeed Johari",
+            "email": "persgeek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    }
+}

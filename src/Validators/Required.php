@@ -11,6 +11,12 @@ class Required extends Validator
 
     public function validate()
     {
-        return !empty($this->value);
+        $value = trim($this->value);
+
+        if (is_numeric($value)) {
+            return true; // Zero is valid
+        }
+        
+        return !empty($value);
     }
 }
